@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import MikasImage from '../assets/mikas.jpeg';
 
 const About: React.FC = () => {
   useEffect(() => {
@@ -24,7 +25,7 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="src\assets\mikas.jpeg"
+              src={MikasImage}
               alt="Equipe COMMIT ENGENHARIA" 
               className="rounded-lg shadow-xl fade-in"
             />
