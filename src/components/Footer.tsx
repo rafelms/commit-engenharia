@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
         <hr className="border-gray-800 mb-8" />
         
         <div className="text-center text-gray-500 text-sm">
-          <p>&copy;2024 COMMIT ENGENHARIA E ENERGIA LTDA. Todos os direitos reservados. CNPJ: 41.678.942/0001-00</p>
+          <p>&copy;2021 COMMIT ENGENHARIA E ENERGIA LTDA. Todos os direitos reservados. CNPJ: 41.678.942/0001-00</p>
         </div>
       </div>
     </footer>
