@@ -96,7 +96,7 @@ const Navbar: React.FC = () => {
               Contato
             </a>
             <a 
-              href="https://wa.me/5500000000000" 
+              href="https://wa.me/5563984163205" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-primary inline-block text-center"

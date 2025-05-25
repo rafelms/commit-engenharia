@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-semibold mb-1">WhatsApp</h4>
                   <a 
-                    href="https://wa.me/5563984378326" 
+                    href="https://wa.me/5563984163205" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
