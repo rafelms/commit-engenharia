@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
           <a href="#projetos" className="text-white hover:text-primary transition-colors">Projetos</a>
           <a href="#contato" className="text-white hover:text-primary transition-colors">Contato</a>
           <a 
-            href="https://wa.me/5500000000000" 
+            href="https://wa.me/5563984163205" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-primary flex items-center"
