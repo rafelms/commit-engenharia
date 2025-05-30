@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
             Soluções em <span className="text-primary">Energia Solar</span> para seu futuro sustentável
           </h1>
           <p className="text-lg md:text-xl mb-8 fade-in" style={{ transitionDelay: '0.4s' }}>
-            Instalação, manutenção e projetos personalizados para residências e empresas. Economize energia e contribua com o meio ambiente.
+            Instalação, manutenção e projetos de sistemas fotovoltaicos. Projetos elétricos personalizados para residências e empresas. Invista com segurança, assegure bem-estar para você e sua família, valorize seu patrimônio e colabore para a preservação do meio ambiente.
           </p>
           <div className="flex flex-wrap gap-4 fade-in" style={{ transitionDelay: '0.6s' }}>
             <a href="#contato" className="btn-primary">

@@ -28,10 +28,10 @@ const Benefits: React.FC = () => {
     {
       icon: <DollarSign size={36} className="text-primary" />,
       title: "Economia Significativa",
-      description: "Reduza sua conta de energia em até 95%* com nossos sistemas solares de alta eficiência. (*A economia pode variar conforme o consumo, local de instalação e dimensionamento do sistema.)"
+      description: "Reduza sua conta de energia em até 85%* com nossos sistemas solares fotovoltaicos de alta eficiência. (*A economia pode variar conforme o consumo, local de instalação e dimensionamento do sistema.)"
     },
     {
-      icon: <Leaf size={36} className="text-primary" />,
+      icon: <Leaf size={36} className="text-primary"  />,
       title: "Sustentabilidade",
       description: "Contribua para um planeta mais limpo com energia renovável, reduzindo significativamente as emissões de CO₂."
     },

@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import project1 from '../assets/project1.png';
+import project2 from '../assets/project2.png';
+import project3 from '../assets/project3.png';
 
 const Projects: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -22,22 +25,22 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
-      image: "https://images.pexels.com/photos/8853502/pexels-photo-8853502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Instalação Residencial",
-      description: "Sistema de 5kWp instalado em residência urbana, gerando economia mensal de 90% na conta de energia.",
-      location: "São Paulo, SP"
+      image: project1,
+      title: "Instalação Comercial",
+      description: "Sistema com 46,2 kWp instalado em estabelecimento comercial. Gerando uma economia anual aproximada de R$ 55.000,00",
+      location: "Palmas - TO"
     },
     {
-      image: "https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: project2,
       title: "Projeto Comercial",
-      description: "Implementação de sistema fotovoltaico para empresa de médio porte, reduzindo custos operacionais significativamente.",
-      location: "Rio de Janeiro, RJ"
+      description: "Sistema com 10,35 kWp instalado em estabelecimento comercial. Gerando uma economia anual aproximada de R$ 12.700,00",
+      location: "Miracema do Tocantins - TO"
     },
     {
-      image: "https://images.pexels.com/photos/8853511/pexels-photo-8853511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 ",
-      title: "Fazenda Solar",
-      description: "Projeto de grande escala para propriedade rural, fornecendo energia limpa para todas as operações da fazenda.",
-      location: "Goiânia, GO"
+      image: project3,
+      title: "Instalação Residencial",
+      description: "Sistema com 9,76 kWp instalado em residência. Gerando uma economia anual aproximada de R$ 12.000,00",
+      location: "Palmas - TO"
     }
   ];
 

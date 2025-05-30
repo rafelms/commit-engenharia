@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }

@@ -3,8 +3,8 @@ import {
   MapPin, 
   Phone, 
   Mail, 
-  MessageSquare
 } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact: React.FC = () => {
   useEffect(() => {
@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
             Entre em Contato
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 fade-in" style={{ transitionDelay: '0.2s' }}>
-            Vamos Conversar Sobre Seu Projeto
+            SOLICITE AGORA UMA CONSULTORIA GRATUITA!
           </h2>
           <p className="max-w-2xl mx-auto text-gray-600 fade-in" style={{ transitionDelay: '0.3s' }}>
             Estamos prontos para ajudar você a deixar o sol pagar a sua conta de energia! Entre em contato para um orçamento gratuito.
@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
               
               <div className="flex items-start">
                 <div className="bg-primary/10 p-3 rounded-lg mr-4">
-                  <MessageSquare className="text-primary" />
+                  <FaWhatsapp className="text-primary w-6 h-6" />
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">WhatsApp</h4>

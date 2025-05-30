@@ -1,6 +1,8 @@
 import React from 'react';
-import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
-import logoImage from '../assets/logosemfund2.png';
+import { Facebook, Instagram, } from 'lucide-react';
+import logoImage from '../assets/10.png';
+import { FaWhatsapp } from 'react-icons/fa';
+
 
 const Footer: React.FC = () => {
   return (
@@ -8,10 +10,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <img src={logoImage} alt="COMMIT ENGENHARIA" className="mb-6 h-16" />
-            <p className="text-gray-400 mb-6">
-              Transformando o futuro com energia limpa e sustentável. Soluções completas em energia solar para residências e empresas.
-            </p>
+            <img src={logoImage} alt="COMMIT ENGENHARIA" className="mb-6 w-60 h-auto" />
             <div className="flex space-x-4">
               <a href="https://www.instagram.com/commit.eng.energia/" target="_blank" className="text-gray-400 hover:text-primary transition-colors">
                 <Instagram size={20} />
@@ -74,9 +73,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
+                  <FaWhatsapp className="h-5 w-5 text-primary" />
                 </span>
                 <a 
                   href="https://wa.me/5563984163205" 
@@ -90,6 +87,9 @@ const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
+        <p className="text-gray-400 mb-6 text-center">
+              Transformando o futuro com energia limpa e sustentável. Soluções completas em energia solar fotovoltaica para residências e empresas.
+        </p>
         
         <hr className="border-gray-800 mb-8" />
         

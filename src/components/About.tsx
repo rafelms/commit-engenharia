@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import MikasImage from '../assets/mikas.jpeg';
+import MikaelImage from '../assets/MikaelThiago.jpg';
 
 const About: React.FC = () => {
   useEffect(() => {
@@ -25,7 +25,7 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src={MikasImage}
+              src={MikaelImage}
               alt="Equipe COMMIT ENGENHARIA" 
               className="rounded-lg shadow-xl fade-in"
             />
@@ -38,31 +38,29 @@ const About: React.FC = () => {
               Transformando o futuro com energia limpa e sustentável
             </h2>
             <p className="text-gray-800 mb-6 fade-in" style={{ transitionDelay: '0.3s', textAlign:'justify'}}>
-              Somos a <strong>Commit Engenharia e Energia</strong> uma empresa tocantinense movida pela paixão em transformar desafios em soluções eficientes. Nosso compromisso vai além do nome — está presente em cada atendimento, projeto e instalação que realizamos.
-
-Com uma abordagem humanizada, técnica e profissional, entregamos soluções em energia solar e serviços elétricos com foco na excelência, sustentabilidade e no atendimento personalizado.
+              Somos a <strong>Commit Engenharia e Energia</strong> uma empresa tocantinense movida pela paixão em transformar desafios em soluções eficientes. Nosso compromisso vai além do nome — está presente em cada atendimento, projeto e instalação que realizamos. 
+              Com uma abordagem humanizada, técnica e profissional, entregamos soluções em energia solar e serviços elétricos com foco na excelência, sustentabilidade e no atendimento personalizado.
             </p>
-            <p className="text-gray-800 mb-6 fade-in" style={{ transitionDelay: '0.4s', textAlign:'justify' }}>
-              Atuamos em um raio de até 150 km da capital Palmas, levando energia limpa e segurança elétrica para residências, comércios e propriedades rurais. À frente da Commit está <strong>Mikael Thiago Menezes de Santana</strong>, técnico em Eletrotécnica formado pelo Instituto Federal do Tocantins (IFTO) e atualmente graduando em Engenharia Elétrica, também pelo IFTO, já no penúltimo período. Com conhecimento técnico sólido e visão inovadora, ele lidera a empresa com responsabilidade, ética e foco no cliente.
-
-Acreditamos que um futuro melhor se constrói com energia consciente e parcerias verdadeiras. Por isso, estamos prontos para atender você com comprometimento e qualidade em cada etapa do seu projeto.
+            <p className="text-gray-800 mb-6 fade-in" style={{ transitionDelay: '0.4s', textAlign:'justify'}}>
+              Atuamos em um raio de até 150 km da capital Palmas, levando energia limpa e segurança elétrica para residências, comércios e propriedades rurais. À frente da Commit está <strong>Mikael Thiago Menezes de Santana</strong>, técnico em Eletrotécnica formado pelo Instituto Federal do Tocantins (IFTO) e atualmente graduando em Engenharia Elétrica, também pelo IFTO, já no penúltimo período. Acreditamos que um futuro melhor se constrói com energia consciente e parcerias verdadeiras. 
+              Por isso, estamos prontos para atender você com comprometimento e qualidade em cada etapa do seu projeto.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="fade-in" style={{ transitionDelay: '0.5s' }}>
-                <div className="text-4xl font-bold text-primary mb-2">100+</div>
+                <div className="text-4xl font-bold text-primary mb-2">200+</div>
                 <p className="text-gray-600">Projetos Realizados</p>
               </div>
-              <div className="fade-in" style={{ transitionDelay: '0.6s' }}>
-                <div className="text-4xl font-bold text-primary mb-2">95%</div>
-                <p className="text-gray-600">Clientes Satisfeitos</p>
+              <div className="fade-in" style={{ transitionDelay: '0.5s' }}>
+                <div className="text-4xl font-bold text-primary mb-2">+1 MWp</div>
+                <p className="text-gray-600">Potência instalada</p>
               </div>
               <div className="fade-in" style={{ transitionDelay: '0.7s' }}>
-                <div className="text-4xl font-bold text-primary mb-2">5+</div>
+                <div className="text-4xl font-bold text-primary mb-2">4+</div>
                 <p className="text-gray-600">Anos de Experiência</p>
               </div>
               <div className="fade-in" style={{ transitionDelay: '0.8s' }}>
-                <div className="text-4xl font-bold text-primary mb-2">50+</div>
+                <div className="text-4xl font-bold text-primary mb-2">20+</div>
                 <p className="text-gray-600">Cidades Atendidas</p>
               </div>
             </div>
