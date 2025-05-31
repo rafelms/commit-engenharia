@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Sun } from 'lucide-react';
-
+import ImageHome from '../assets/ImgHome.png';
 const Hero: React.FC = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
       id="inicio" 
       className="relative h-screen flex items-center justify-center"
       style={{ 
-        backgroundImage: "url('https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')", 
+        backgroundImage: `url(${ImageHome})`, 
         backgroundSize: 'cover', 
         backgroundPosition: 'center' 
       }}
