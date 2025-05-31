@@ -40,45 +40,45 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="max-w-2xl mx-auto">
-          <div className="fade-in" style={{ transitionDelay: '0.4s' }}>
+          <div className="fade-in text-center" style={{ transitionDelay: '0.4s' }}>
             <h3 className="text-2xl font-bold mb-6">Informações de Contato</h3>
             
-            <div className="space-y-6">
-              <div className="flex items-start">
+            <div className="space-y-6 flex flex-col items-center">
+              <div className="flex w-full max-w-md">
                 <div className="bg-primary/10 p-3 rounded-lg mr-4">
                   <MapPin className="text-primary" />
                 </div>
-                <div>
+                <div className="flex-1 text-left">
                   <h4 className="font-semibold mb-1">Endereço</h4>
                   <p className="text-gray-600">906 Sul Alameda 12, 26<br />Palmas - Tocantins, 77023-424</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
+              <div className="flex w-full max-w-md">
                 <div className="bg-primary/10 p-3 rounded-lg mr-4">
                   <Phone className="text-primary" />
                 </div>
-                <div>
+                <div className="flex-1 text-left">
                   <h4 className="font-semibold mb-1">Telefone</h4>
                   <p className="text-gray-600">(63) 98416-3205</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
+              <div className="flex w-full max-w-md">
                 <div className="bg-primary/10 p-3 rounded-lg mr-4">
                   <Mail className="text-primary" />
                 </div>
-                <div>
+                <div className="flex-1 text-left">
                   <h4 className="font-semibold mb-1">Email</h4>
                   <p className="text-gray-600">commit.eng.energia@gmail.com</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
+              <div className="flex w-full max-w-md">
                 <div className="bg-primary/10 p-3 rounded-lg mr-4">
                   <FaWhatsapp className="text-primary w-6 h-6" />
                 </div>
-                <div>
+                <div className="flex-1 text-left">
                   <h4 className="font-semibold mb-1">WhatsApp</h4>
                   <a 
                     href="https://wa.me/5563984163205" 
